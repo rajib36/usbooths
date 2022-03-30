@@ -360,6 +360,41 @@ End Home Page CSS
 
 
 
+
+/*=========================
+Start Shop Page CSS
+==========================*/
+.shop_banner{
+    background: url(../img/gallery.jpg);
+    text-align: center;
+    margin-top: -20px;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.shop_banner p, p a{
+    padding-top: 300px;
+    color: #ffffff;
+}
+.shop_banner h1{
+    font-size: 69px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.product_sec .part_3_product h3{
+    color: #333333;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+/*=========================
+Start Shop Page CSS
+==========================*/
+
+
+
 /*------------Start Footer----------------*/
 .footer .subscrib_section{
     background-color: #333333;

@@ -30,17 +30,36 @@
     <div class="container_fluid news_update">
         <p>We only do shipping in Arizona</p>
     </div>
-    <section class="home_banner">
-        <h1>SHOP</h1>
+    <section class="shop_banner">
+        <div class="shop_content_part">
+            <p><a href="./index.html">Home</a> / <a href="./shop.html">Shop</a></p>
+            <h1>SHOP</h1>
+        </div>
     </section>
     <!---------End Banner-------->
 
     <!---------Start Product Section-------->
     <section class="product_sec">
         <div class="container">
-            <h2>Best Selling</h2>
-            <hr class="hr-1">
-            <hr class="hr-2">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-12">
+                    <p color="#333333 !important">Showing 1-15 of 16 resullts</p>
+                </div>
+
+            <div class="col-lg-4 col-md-4 col-12 part_3_product">
+                <h3>Latest Product</h3>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-12">
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Filter Product</option>
+                    <option value="1">Short by latest</option>
+                    <option value="2">Short by type</option>
+                    <option value="3">Short by name</option>
+                </select>
+            </div>
+            </div>
+
         </div>
         <div class="container">
             <div class="row">
@@ -259,7 +278,7 @@
         </div>
         
         <div class="container product_btn">
-                <button class="abt-btn" text-align="center"><a href="#">Next Page</a></button>
+            <button class="abt-btn" text-align="center"><a href="#">Next Page</a></button>
         </div>
     </section>
     <!---------End Product Section-------->
