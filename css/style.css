@@ -104,6 +104,9 @@ Start Home Page CSS
     color: #ffffff;
     padding-top: 350px;
     text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .home_banner h3{
     color: #ffffff;
@@ -391,9 +394,58 @@ Start Shop Page CSS
     letter-spacing: 3px;
 }
 /*=========================
-Start Shop Page CSS
+End Shop Page CSS
 ==========================*/
 
+
+
+
+
+/*=========================
+Start Quote Page CSS
+==========================*/
+.quote_sec{
+    text-align: center;
+    margin-top: -20px;
+    position: relative;
+    width: 100%;
+    background: url(../img/home_banner\ 1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.quote_sec h1{
+    font-size: 69px;
+    color: #ffffff;
+    padding-top: 200px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.quote_sec .custom_form{
+    padding: 100px;
+}
+.quote_sec .custom_form .quote_form{
+    background-color: #f5f5f5;
+    padding: 50px;
+    border-radius: 25px;
+}
+.quote_sec .custom_form .quote_form .form-label, .form-check-label{
+    display: flex;
+    color: #333333;
+}
+.quote_sec .custom_form .quote_form input{
+    border: 1px solid #333333;
+    border-radius: 50px;
+}
+.quote_sec .custom_form .quote_form .quote_btn{
+    background-color: #333333;
+    border-radius: 100px;
+    padding: 10px 30px;
+}
+/*=========================
+End Quote Page CSS
+==========================*/
 
 
 /*------------Start Footer----------------*/
