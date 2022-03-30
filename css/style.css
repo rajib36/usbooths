@@ -377,6 +377,7 @@ Start Shop Page CSS
 .shop_banner p, p a{
     padding-top: 300px;
     color: #ffffff;
+    text-decoration: none;
 }
 .shop_banner h1{
     font-size: 69px;
