@@ -1,0 +1,479 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	outline: 0;
+}
+img{
+	vertical-align: middle;
+}
+ol, ul{
+	list-style: none;
+}
+a,
+a:hover,
+a:focus{
+	text-decoration: none;
+	outline: 0;
+}
+button,
+button:hover,
+button:focus{
+	text-decoration: none;
+	outline: 0;
+}
+body{
+	font-family: 'Lato', sans-serif;
+}
+
+
+
+/*------------Start Header----------------*/
+header{
+    margin-top: 40px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.6s;
+    padding: 20px 50px;
+    z-index: 100000;
+
+}
+header.sticky{
+    margin-top: 0;
+    padding: 5px 50px;
+    background-color: #333333;
+}
+header.sticky li{
+    padding-top: 10px;
+}
+header .logo{
+    position: relative;
+    transition: 0.6s;
+}
+header .logo img{
+    height: 60px;
+}
+header ul{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul li{
+    position: relative;
+    list-style: none;
+}
+header ul li a{
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 0 20px;
+    color: #dadada;
+    letter-spacing: 2px;
+    font-weight: 500;
+    transition: 0.6s;
+}
+header ul li a:hover{
+    color: #ffffff;
+    font-weight: 600;
+}
+/*------------End Header----------------*/
+
+
+/*=========================
+Start Home Page CSS
+==========================*/
+/*------------Start Banner----------------*/
+.home_banner{
+    text-align: center;
+    margin-top: -20px;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url(../img/home_banner\ 1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.home_banner h1{
+    font-size: 69px;
+    color: #ffffff;
+    padding-top: 350px;
+    text-transform: uppercase;
+}
+.home_banner h3{
+    color: #ffffff;
+    font-size: 42px;
+    text-transform: uppercase;
+}
+.home_banner .mainbtn{
+    background-color: #333333;
+    border-radius: 50px;
+    margin-top: 20px;
+    border: 0;
+    padding: 13px 25px;
+}
+.home_banner .mainbtn:hover{
+    background-color: #686868;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+}
+.home_banner .mainbtn a{
+    color: #ffffff;
+    text-decoration: none;
+}
+/*------------End Banner----------------*/
+
+/*------------Start About Section----------------*/
+.about_sec_home{
+    margin: 100px 0;
+}
+.about_sec_home .abt-sec-p2{
+    background-color: #000000;
+    margin-top: -200px;
+    margin-bottom: 200px;
+    z-index: 1;
+    padding: 50px;
+    margin-left: -12px;
+}
+.about_sec_home .abt-sec-p2 h2, .abt-sec-p3 h2, .work_section h2, .product_sec h2, .blog_sec h2{
+    color: #ffffff;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+.about_sec_home .abt-sec-p2 p, .abt-sec-p3 p{
+    color: #ffffff;
+    text-align: justify;
+    font-size: 17px;
+}
+.about_sec_home .abt-sec-p2 .abt-btn, .seemore_btn, .work_section .recent_p2 .recent_p_btn, .product_sec .abt-btn, .blog_sec .seemore_btn{
+    background-color: #333333;
+    border-radius: 50px;
+    padding: 12px 25px;
+    margin-top: 30px;
+    border: 0;
+}
+.about_sec_home .abt-sec-p2 .abt-btn a, .seemore_btn a, .work_section .recent_p2 .recent_p_btn a, .product_sec .abt-btn a, .blog_sec .seemore_btn a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.about_sec_home .abt-sec-p2 .abt-btn, .seemore_btn, .work_section .recent_p2 .recent_p_btn, .product_sec .abt-btn, .blog_sec .seemore_btn:hover{
+    background-color: #686868;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+}
+.about_sec_home .abt-sec-p3{
+    background-color: #333333;
+    padding: 60px;
+    margin-top: -250px;
+    z-index: 2;
+}
+/*------------End About Section----------------*/
+
+/*------------Start Work Section----------------*/
+.work_section, .product_sec{
+    margin: 100px 0px;
+}
+.work_section h2, .product_sec h2, .blog_sec h2{
+    color: #333333 !important;
+    text-align: center;
+}
+.work_section .hr-1, .work_section .hr-2, .product_sec .hr-1, .product_sec .hr-2, .blog_sec .hr-1, .blog_sec .hr-2{
+    width: 50px;
+    height: 3px;
+    color: #333333;
+}
+.work_section .hr-1, .product_sec .hr-1, .blog_sec .hr-1{
+    margin: auto;
+}
+.work_section .hr-2, .product_sec .hr-2, .blog_sec .hr-2{
+    margin-left: 605px;
+    height:3px;
+    margin-top: 5px;
+}
+.work_section .recent_part{
+    margin-top: 60px;
+}
+.work_section .recent_p1 img{
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+}
+.work_section .recent_p2{
+    background-color: #ffffff;
+    text-align: center;
+    margin: auto;
+    padding: 100px 50px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+    margin-left: -25px;
+    z-index: 1;
+}
+.work_section .update-2-2{
+    margin-left: 0 !important;
+    margin-right: -35px;
+}
+.work_section .recent_p2 h5{
+    color: #333333;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+.work_section .recent_p2 h3{
+    color: #333333;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin: 20px 0;
+}
+.work_section .recent_p2 p{
+    color: #333333;
+    font-size: 15px;
+    margin: 0 50px;
+}
+.work_section .all_recent{
+    text-align: center;
+}
+/*------------End Work Section----------------*/
+
+/*------------Start Instagram Section----------------*/
+.instagram_sec{
+    margin: 100px 0;
+}
+/*------------End Instagram Section----------------*/
+
+/*------------Start Review Section----------------*/
+.review_sec .review_part{
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    background: url(../img/Review\ img.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.review_sec .review_part .carousel-item img{
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    margin-top: 200px;
+}
+.review_sec .review_part .carousel-item h3{
+    color: #ffffff;
+    font-size: 30px;
+    margin: 20px 0;
+}
+.review_sec .review_part .carousel-item p{
+    color: #dbdbdb;
+    margin: 0 300px;
+    font-size: 16px;
+}
+/*------------End Review Section----------------*/
+
+/*------------Start Product Section----------------*/
+.product_sec .single_product h5{
+    color: #333333;
+    font-weight: 700;
+}
+.product_sec .product_btn{
+    text-align: center;
+}
+/*------------End Product Section----------------*/
+
+/*------------Start Process Section----------------*/
+.process{
+    background: url(../img/service.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 100px;
+}
+.process .process_img{
+    background-color: #00000060;
+    text-align: center;
+}
+.process .process_img h2{
+    color: #ffffff;
+    text-transform: uppercase;
+    margin: 30px;
+    letter-spacing: 3px;
+}
+.process .process_img .icon_pp{
+    color: #ffffff;
+    font-size: 50px;
+}
+.process .process_img h5{
+    color: #ffffff;
+    font-size: 30px;
+    margin: 25px 0;
+}
+.process .process_img p{
+    color: #ffffff;
+    font-size: 20px;
+    margin-bottom: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+    line-height: 25px;
+}
+/*------------End Process Section----------------*/
+
+/*------------Start Blog Section----------------*/
+.blog_sec{
+    margin: 100px 0;
+}
+.blog_sec .box_blog{
+    padding: 50px;
+}
+.blog_sec .single_blog{
+    margin: 30px 0;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+}
+.blog_sec .single_blog img{
+    width: 100%;
+    height: 500px;
+}
+.blog_sec .single_blog h3{
+    color: #333333;
+    font-size: 42px;
+    margin: 15px 0;
+}
+.blog_sec .single_blog p{
+    color: #333333;
+    font-size: 18px;
+}
+.blog_sec .single_blog a{
+    text-decoration: none;
+    color: #333333;
+    font-size: 22px;
+    font-weight: 600;
+}
+.blog_sec .blog_btn{
+    text-align: center;
+}
+/*------------End Blog Section----------------*/
+
+/*=========================
+End Home Page CSS
+==========================*/
+
+
+
+/*------------Start Footer----------------*/
+.footer .subscrib_section{
+    background-color: #333333;
+    height: 250px;
+}
+.footer .subscrib_section .subscribe_box{
+    padding-top: 120px;
+}
+.footer .subscrib_section .subscribe_box input{
+    background-color: #333333;
+    border: 1px solid #ffffff;
+    border-radius: 50px;
+}
+.footer .subscrib_section .subscribe_box button{
+    color: #ffffff;
+    background-color: #333333;
+    border: 1px solid #ffffff;
+    border-radius: 50px;
+}
+.footer .subscrib_section .subscribe_box ::placeholder{
+    color: #ffffff;
+}
+.footer .info_part{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.footer .p-one img{
+    height: 130px;
+}
+.footer .p-one p{
+    text-align: justify;
+}
+.info_part{
+    text-align: center;
+}
+/*------------End Footer----------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*=========================
+About Page CSS
+==========================*/
+
+/*------------Start Banner----------------*/
+.news_update{
+    background-color: #686868;
+}
+.news_update p{
+    text-align: center;
+    color: #ffffff;
+    font-size: 18px;
+    padding-top: 1px;
+    padding-bottom: 10px;
+}
+.about_banner{
+    margin-top: -20px;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url(../img/about_banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.about_banner h1{
+    font-size: 69px;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 350px;
+}
+/*------------End Banner----------------*/
+
+/*------------Start About Section----------------*/
+.about_part{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    vertical-align: middle;
+}
+.about_part img{
+    height: 610px;
+    width: 610px;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+}
+.about_part p{
+    font-size: 20px;
+    text-align: justify;
+}
+.about_part .part_two{
+    align-self: center;
+}
+/*------------End About Section----------------*/
