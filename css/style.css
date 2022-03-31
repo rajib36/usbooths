@@ -457,7 +457,7 @@ Start Quote Page CSS
     display: flex;
     color: #333333;
 }
-.quote_sec .custom_form .quote_form input{
+.quote_sec .custom_form .quote_form input, .quote_sec select{
     border: 1px solid #333333;
     border-radius: 50px;
 }
@@ -468,6 +468,19 @@ Start Quote Page CSS
 }
 /*=========================
 End Quote Page CSS
+==========================*/
+
+
+
+/*=========================
+Start Appointment Page CSS
+==========================*/
+.appointment_sec h2{
+    color: #ffffff;
+    font-size: 40px;
+}
+/*=========================
+End Appointment Page CSS
 ==========================*/
 
 

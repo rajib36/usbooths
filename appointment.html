@@ -30,46 +30,51 @@
     <div class="container_fluid news_update">
         <p>We only do shipping in Arizona</p>
     </div>
-    <section class="quote_sec">
+    <section class="quote_sec appointment_sec">
         <h1>Book An Appointment</h1>
+        <h2>On Site Consultation</h2>
+        <h2>One of our experts will go to your place </h2>
 
         <div class="custom_form container">
 
-            <form class="row g-3 quote_form">
-                <div class="col-md-6">
-                  <label for="name" class="form-label">Name</label>
-                  <input type="text" class="form-control" placeholder="Input your name" aria-label="First name">
-                </div>
-                <div class="col-md-6">
-                  <label for="phoneNumber" class="form-label">Phone Number</label>
-                  <input type="number" class="form-control" placeholder="Input your phone number" aria-label="Phone Number">
-                </div>
+          <div class="row quote_form">
+            <div class="col-lg-6 col-md-6 col-sm-12">
+              <form class="row g-3">
+                <select class="form-select" aria-label="Default select example" required>
+                  <option selected>Select service</option>
+                  <option value="1">On Site Consultation</option>
+                </select>
+
+                <select class="form-select" aria-label="Default select example" required>
+                  <option selected>Select Representative</option>
+                  <option value="1">Fernando Barajas</option>
+                </select>
+
                 <div class="col-12">
-                  <label for="inputEmail4" class="form-label">E-mail</label>
-                  <input type="text" class="form-control" id="inputAddress" placeholder="Input your valid e-mail address">
+                  <label for="inputEmail4" class="form-label">User e-mail</label>
+                  <input type="text" class="form-control" id="inputAddress" placeholder="Type your vaild E-mail" required>
                 </div>
-                <div class="col-12">
-                  <label for="inputAddress" class="form-label">Address</label>
-                  <input type="text" class="form-control" id="inputAddress" placeholder="Type your address">
-                </div>
-                <div class="col-md-12">
-                  <label for="inputCity" class="form-label">Description</label>
-                  <input type="text" class="form-control" id="inputCity" placeholder="Type your messege here">
-                </div>
-                <div class="col-md-12">
-                  <label for="inputState" class="form-label">Inspirational Pictures</label>
-                  <input class="form-control form-check-label" type="file" multiple id="myFile" name="filename">
-                </div>
+
                 <div class="col-12">
                   <div class="form-check">
-                    <input class="form-check-input" type="checkbox" id="gridCheck">
-                    <label class="form-check-label" for="gridCheck">REQUEST 3D FILE</label>
+                    <input class="form-check-input" type="checkbox" id="gridCheck" required>
+                    <label class="form-check-label" for="gridCheck">Confirm</label>
                   </div>
                 </div>
-                <div class="col-12">
-                  <button type="submit" class="btn btn-primary quote_btn">NEXT <i class="fa-solid fa-arrow-right"></i></button>
-                </div>
+                
               </form>
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-sm-12"></div>
+
+            <div class="row">
+              <div class="col-12">
+                <button type="submit" class="btn btn-primary quote_btn">NEXT <i class="fa-solid fa-arrow-right-long"></i></button>
+              </div>
+            </div>
+          </div>
+
+          
 
         </div>
     </section>
