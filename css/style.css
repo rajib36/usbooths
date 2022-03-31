@@ -364,6 +364,29 @@ End Home Page CSS
 
 
 
+
+/*=========================
+Start Gallery Page CSS
+==========================*/
+.gallery_sec{
+    margin: 100px 0;
+}
+.gallery_sec .item{
+    transition: .5s ease-in-out;
+}
+.gallery_sec .item img{
+    border-radius: 25px;
+}
+.gallery_sec .item:hover{
+    filter: brightness(80%);
+}
+/*=========================
+End Gallery Page CSS
+==========================*/
+
+
+
+
 /*=========================
 Start Shop Page CSS
 ==========================*/
