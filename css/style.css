@@ -98,15 +98,13 @@ Start Home Page CSS
     background: url(../img/home_banner\ 1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
 .home_banner h1{
     font-size: 69px;
     color: #ffffff;
     padding-top: 350px;
     text-transform: uppercase;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 .home_banner h3{
     color: #ffffff;
@@ -153,18 +151,18 @@ Start Home Page CSS
     text-align: justify;
     font-size: 17px;
 }
-.about_sec_home .abt-sec-p2 .abt-btn, .seemore_btn, .work_section .recent_p2 .recent_p_btn, .product_sec .abt-btn, .blog_sec .seemore_btn{
+.about_sec_home .abt-sec-p2 .abt-btn, .seemore_btn, .recent_p_btn, .product_sec .abt-btn, .blog_sec .seemore_btn{
     background-color: #333333;
     border-radius: 50px;
     padding: 12px 25px;
     margin-top: 30px;
     border: 0;
 }
-.about_sec_home .abt-sec-p2 .abt-btn a, .seemore_btn a, .work_section .recent_p2 .recent_p_btn a, .product_sec .abt-btn a, .blog_sec .seemore_btn a{
+.about_sec_home .abt-sec-p2 .abt-btn a, .seemore_btn a, .recent_p_btn a, .product_sec .abt-btn a, .blog_sec .seemore_btn a{
     color: #ffffff;
     text-decoration: none;
 }
-.about_sec_home .abt-sec-p2 .abt-btn, .seemore_btn, .work_section .recent_p2 .recent_p_btn, .product_sec .abt-btn, .blog_sec .seemore_btn:hover{
+.about_sec_home .abt-sec-p2 .abt-btn, .seemore_btn, .recent_p_btn, .product_sec .abt-btn, .blog_sec .seemore_btn:hover{
     background-color: #686868;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
 }
@@ -232,7 +230,13 @@ Start Home Page CSS
 .work_section .recent_p2 p{
     color: #333333;
     font-size: 15px;
-    margin: 0 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.work_section .recent_p2 a{
+    color: #333333;
 }
 .work_section .all_recent{
     text-align: center;
@@ -268,7 +272,10 @@ Start Home Page CSS
 }
 .review_sec .review_part .carousel-item p{
     color: #dbdbdb;
-    margin: 0 300px;
+    margin-top: 0;
+    margin-bottom: 300px;
+    margin-left: 300px;
+    margin-right: 300px;
     font-size: 16px;
 }
 /*------------End Review Section----------------*/
@@ -484,75 +491,11 @@ End Appointment Page CSS
 ==========================*/
 
 
-/*------------Start Footer----------------*/
-.footer .subscrib_section{
-    background-color: #333333;
-    height: 250px;
-}
-.footer .subscrib_section .subscribe_box{
-    padding-top: 120px;
-}
-.footer .subscrib_section .subscribe_box input{
-    background-color: #333333;
-    border: 1px solid #ffffff;
-    border-radius: 50px;
-}
-.footer .subscrib_section .subscribe_box button{
-    color: #ffffff;
-    background-color: #333333;
-    border: 1px solid #ffffff;
-    border-radius: 50px;
-}
-.footer .subscrib_section .subscribe_box ::placeholder{
-    color: #ffffff;
-}
-.footer .info_part{
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-.footer .p-one img{
-    height: 130px;
-}
-.footer .p-one p{
-    text-align: justify;
-}
-.info_part{
-    text-align: center;
-}
-/*------------End Footer----------------*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*=========================
-About Page CSS
+Start About Page CSS
 ==========================*/
-
 /*------------Start Banner----------------*/
 .news_update{
     background-color: #686868;
@@ -601,3 +544,176 @@ About Page CSS
     align-self: center;
 }
 /*------------End About Section----------------*/
+/*=========================
+ENd About Page CSS
+==========================*/
+
+
+
+
+
+/*------------Start Footer----------------*/
+.footer .subscrib_section{
+    background-color: #333333;
+    height: 250px;
+}
+.footer .subscrib_section .subscribe_box{
+    padding-top: 120px;
+}
+.footer .subscrib_section .subscribe_box input{
+    background-color: #333333;
+    border: 1px solid #ffffff;
+    border-radius: 50px;
+}
+.footer .subscrib_section .subscribe_box button{
+    color: #ffffff;
+    background-color: #333333;
+    border: 1px solid #ffffff;
+    border-radius: 50px;
+}
+.footer .subscrib_section .subscribe_box ::placeholder{
+    color: #ffffff;
+}
+.footer .info_part{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.footer .p-one img{
+    height: 130px;
+}
+.footer .p-one p{
+    text-align: justify;
+}
+.info_part{
+    text-align: center;
+}
+/*------------End Footer----------------*/
+
+
+
+
+/*=========================================
+    Start Responsive for Mobile Device
+===========================================*/
+@media screen and (max-width: 390px){
+    .home_banner h1{
+        font-size: 32px;
+        padding-top: 250px;
+    }
+    .home_banner h3{
+        font-size: 27px;
+    }
+    .about_sec_home{
+        margin: 15px 0;
+    }
+    .about_sec_home .abt-sec-p2{
+        margin-top: 10px;
+        padding: 35px;
+        margin-bottom: 0px;
+        margin-left: 0;
+        text-align: center;
+    }
+    .about_sec_home .abt-sec-p2 h2, .abt-sec-p3 h2, .work_section h2, .product_sec h2, .blog_sec h2{
+        margin-bottom: 30px;
+    }
+    .about_sec_home .abt-sec-p2 .abt-btn, .seemore_btn, .work_section .recent_p2 .recent_p_btn, .product_sec .abt-btn, .blog_sec .seemore_btn{
+        margin-top: 20px;
+    }
+    .about_sec_home .abt-sec-p3{
+        padding: 30px;
+        margin-top: 10px;
+        text-align: center;
+    }
+    .work_section, .product_sec{
+        margin: 50px 0px;
+    }
+    .work_section .hr-2, .product_sec .hr-2, .blog_sec .hr-2{
+        margin-left: 140px;
+    }
+    .work_section .recent_part{
+        margin-top: 10px;
+    }
+    .work_section .recent_p1 img{
+        width: 100%;
+    }
+    .work_section .recent_p2{
+        padding: 50px 50px;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    .work_section .update-2-2{
+        margin-right: 0px;
+    }
+    .work_section .recent_p2 h3{
+        font-size: 25px;
+    }
+    .work_section .recent_p2 p{
+        margin-top: 0;
+        margin-bottom: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .instagram_sec{
+        margin: 50px 0;
+    }
+    .review_sec .review_part .carousel-item img{
+        height: 150px;
+        width: 150px;
+        margin-top: 150px;
+    }
+    .review_sec .review_part .carousel-item h3{
+        font-size: 20px;
+        margin: 15px 0;
+    }
+    .review_sec .review_part .carousel-item p{
+        margin-bottom: 50px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .product_sec{
+        padding: 20px;
+    }
+    .process{
+        padding: 20px;
+    }
+    .process .process_img h2{
+        margin: 40px 0;
+    }
+    .process .process_img h5{
+        font-size: 25px;
+        margin: 15px 0;
+    }
+    .process .process_img p{
+        font-size: 18px;
+    }
+    .blog_sec{
+        margin: 50px 0;
+    }
+    .blog_sec .box_blog{
+        padding: 30px;
+    }
+    .blog_sec .single_blog img{
+        height: 200px;
+    }
+    .blog_sec .single_blog h3{
+        font-size: 30px;
+    }
+    .blog_sec .single_blog a{
+        font-size: 20px;
+    }
+    .footer .subscrib_section .subscribe_box{
+        padding-top: 100px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .footer .subscrib_section .subscribe_box button{
+        margin-left: 120px;
+        margin-top: 15px;
+    }
+    .footer .subscrib_section .subscribe_box ::placeholder{
+        text-align: center;
+    }
+    .footer .info_part{
+        padding: 30px;
+    }
+}
