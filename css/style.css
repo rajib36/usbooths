@@ -191,7 +191,7 @@ Start Home Page CSS
     margin: auto;
 }
 .work_section .hr-2, .product_sec .hr-2, .blog_sec .hr-2{
-    margin-left: 605px;
+    margin-left: 40%;
     height:3px;
     margin-top: 5px;
 }
@@ -287,6 +287,9 @@ Start Home Page CSS
 }
 .product_sec .product_btn{
     text-align: center;
+}
+.product_sec .single_product img{
+    width: 100%;
 }
 /*------------End Product Section----------------*/
 
@@ -587,15 +590,24 @@ ENd About Page CSS
 .info_part{
     text-align: center;
 }
+.footer .copyright_part{
+    background-color: #333333;
+}
+.footer .copyright_part p{
+    color: #ffffff;
+    text-align: center;
+    padding: 15px 5px;
+}
 /*------------End Footer----------------*/
 
 
 
 
-/*=========================================
-    Start Responsive for Mobile Device
-===========================================*/
-@media screen and (max-width: 390px){
+
+/*=================================================
+    Start Responsive for iphone 11/12/13 Device
+===================================================*/
+@media screen and (max-width: 428px){
     .home_banner h1{
         font-size: 32px;
         padding-top: 250px;
@@ -626,9 +638,6 @@ ENd About Page CSS
     }
     .work_section, .product_sec{
         margin: 50px 0px;
-    }
-    .work_section .hr-2, .product_sec .hr-2, .blog_sec .hr-2{
-        margin-left: 140px;
     }
     .work_section .recent_part{
         margin-top: 10px;
@@ -716,4 +725,187 @@ ENd About Page CSS
     .footer .info_part{
         padding: 30px;
     }
+    .quote_sec h1{
+        font-size: 40px;
+    }
+    .quote_sec .custom_form{
+        padding: 30px;
+    }
+    .quote_sec .custom_form .quote_form{
+        padding: 20px;
+    }
+    .appointment_sec h2{
+        font-size: 20px;
+    }
+    .about_banner{
+        background-position: center;
+    }
+    .about_banner h1{
+        font-size: 50px;
+    }
+    .about_part{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .about_part img{
+        height: 100%;
+        width: 100%;
+    }
+    .about_part p, h2{
+        padding: 10px;
+    }
+    .about_part .part_two h2{
+        margin-top: 20px;
+    }
 }
+/*=========================================
+    End Responsive for iphone 11/12/13 Device
+===========================================*/
+
+
+
+
+/*=========================================
+    Start Responsive for Laptop Device
+===========================================*/
+@media screen and (min-width: 429px) and (max-width: 767px){
+    .home_banner h1{
+        font-size: 55px;
+        padding-top: 220px;
+    }
+    .about_sec_home{
+        margin: 70px 0;
+    }
+    .about_sec_home .abt-sec-p2{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 0px;
+    }
+    .about_sec_home .abt-sec-p2 p, .abt-sec-p3 p{
+        font-size: 19px;
+    }
+    .about_sec_home .abt-sec-p3{
+        margin-top: 20px;
+    }
+    .work_section, .product_sec{
+        margin: 70px 0px;
+    }
+    .work_section .recent_part{
+        margin-top: 30px;
+    }
+    .work_section .recent_p1 img{
+        height: 100%;
+        width: 100%;
+    }
+    .work_section .recent_p2{
+        margin-left: 0px;
+    }
+    .review_sec .review_part .carousel-item p{
+        margin-bottom: 50px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .process{
+        padding: 10%;
+    }
+    .footer .subscrib_section .subscribe_box{
+        padding-top: 100px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .footer .subscrib_section .subscribe_box button{
+        margin-left: 40%;
+        margin-top: 15px;
+    }
+    .footer .subscrib_section .subscribe_box ::placeholder{
+        text-align: center;
+    }
+    .footer .info_part{
+        padding: 30px;
+    }
+    .quote_sec h1{
+        font-size: 40px;
+    }
+    .quote_sec .custom_form{
+        padding: 30px;
+    }
+    .quote_sec .custom_form .quote_form{
+        padding: 20px;
+    }
+    .appointment_sec h2{
+        font-size: 20px;
+    }
+    .about_banner{
+        background-position: center;
+    }
+    .about_banner h1{
+        font-size: 50px;
+    }
+    .about_part{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .about_part img{
+        height: 100%;
+        width: 100%;
+    }
+    .about_part p, h2{
+        padding: 10px;
+    }
+    .about_part .part_two h2{
+        margin-top: 20px;
+    }
+}
+/*=========================================
+    End Responsive for Laptop Device
+===========================================*/
+
+
+
+
+
+/*=========================================
+    Start Responsive for Laptop Device
+===========================================*/
+@media screen and (min-width: 767px) and (max-width: 1199px){
+    .about_sec_home .abt-sec-p3 {
+        margin-top: -225px;
+    }
+    .work_section .hr-2, .product_sec .hr-2, .blog_sec .hr-2 {
+        margin-left: 45%;
+    }
+    .work_section .update-2-2 {
+        margin-right: -20%;
+    }
+}
+/*=========================================
+    End Responsive for Laptop Device
+===========================================*/
+
+
+
+
+/*=========================================
+    Start Responsive for Desktop Device
+===========================================*/
+@media screen and (min-width: 1200px) and (max-width: 1439px){
+    .home_banner h1{
+        padding-top: 250px;
+    }
+    .about_sec_home{
+        margin: 60px 0;
+    }
+    .work_section, .product_sec{
+        margin: 60px 0px;
+    }
+    .work_section .hr-2, .product_sec .hr-2, .blog_sec .hr-2{
+        margin-left: 505px;
+    }
+    .work_section .update-2-2{
+        margin-right: -95px;
+    }
+}
+
+/*=========================================
+    End Responsive for Desktop Device
+===========================================*/
